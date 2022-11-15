@@ -1,0 +1,29 @@
+stages:
+  - build
+  - deploy
+
+build:
+  image: node:latest    
+  stage: build
+  variables: 
+    # Replace this with your site URL
+    PUBLIC_URL: http://projeto-multidisciplinar.gitlab.io/heleno-app
+    REACT_APP_BASE_NAME: /heleno-app
+  script:
+    - npm install      
+    - npm run build
+  artifacts:
+    paths:
+      - build/  
+ 
+pages:
+  image: alpine:latest
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none        # Do not clone git repo
+  script:
+    # Rename the CRA `build` folder to `public`
+    - mv build public         
+  artifacts:
+    paths:
+      - public

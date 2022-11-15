@@ -1,0 +1,52 @@
+[
+    {
+        "ID" : 11,
+        "titulo": "Projeto Heleno",
+        "fotoProjeto": "React.png",
+        "descricaoProjeto" : "...",
+        "tecnologias": "React",
+        "participantes": "Igor, Clarissa, Guilherme, Felipe",
+        "estado": "em desenvolvimento",
+        "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
+    }
+    ,
+
+    {
+        "ID" : 22,
+        "titulo": "machine learning usando Python",
+        "fotoProjeto": "Python(2).jpg",
+        "descricaoProjeto" : "...",
+        "tecnologias": "Python",
+        "participantes": "Igor, Clarissa, Guilherme, Felipe",
+        "estado": "em desenvolvimento",
+        "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
+    }
+    ,
+
+    {
+        "ID" : 33,
+        "titulo": "Framework Django",
+        "fotoProjeto": "Django.png",
+        "descricaoProjeto" : "...",
+        "tecnologias": "Python, Django",
+        "participantes": "Igor, Clarissa, Guilherme, Felipe",
+        "estado": "em desenvolvimento",
+        "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
+    }
+    ,
+
+    {
+        "ID" : 44,
+        "titulo": "Banco de Dados",
+        "fotoProjeto": "BancoDeDados.png",
+        "descricaoProjeto" : "...",
+        "tecnologias": "DB Browser for SQLite",
+        "participantes": "Igor, Clarissa, Guilherme, Felipe",
+        "estado": "em desenvolvimento",
+        "cursoRelacionado": "Análise e Desenvolvimento de Sistemas",
+        "papeis": "Desenvolvedores: Clarissa, Igor, Guilherme, Felipe"
+    }
+]

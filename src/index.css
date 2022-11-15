@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+/* html, body, #root{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+} */
+
+input[type=text].section-readonly-input {
+    outline: none !important;
+    border-width: 0px !important;
+    border: none !important;
+    
+    /* &:hover {
+      outline: none !important;
+      border-width: 0px !important;
+      border: none !important;
+    }
+    &:focus {
+      outline: none !important;
+      border-width: 0px !important;
+      border: none !important;
+    } */
+  }
+
+.ContainerCardProjetos{
+  display: flex;
+  gap: .8em;
+  margin-top: .8em;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  padding-bottom: 2em;
+}
+
+.ContainerCardAlunos{
+  display: flex;
+  gap: .8em;
+  margin-top: .8em;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 0.8em;
+  padding-bottom: 6.25em;
+}
+
+.ConteudoContato{
+  display:flex;
+}
+
+@media screen and (min-width: 1024px){
+    .ContainerCardProjetos{
+      flex-flow: row;
+    }
+    .ContainerCardAlunos{
+      flex-flow: row;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+  .ConteudoContato > img{
+    object-fit: cover;
+    height: 20vh;
+    width: 70vw;
+    margin-left: 12vw;
+  }
+  .ConteudoContato{
+    display: block;
+  }
+
+  .ConteudoContato > div {
+    margin-left: 15vw;
+  }
+  .ConteudoContato input {
+    width: 60vw;
+  }
+
+}
+
+.TituloSobre {
+  margin: 2em;
+  text-align: center;
+  font-family: 'Barlow';
+}
+
+.InfoSobre {
+  font-size: 1.3em;
+  margin-top: 2em;
+  text-align: center;
+  font-family: 'Barlow';
+}
+
+.AlinhamentoBtnSobre {
+  text-align: center;
+}
